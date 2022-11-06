@@ -67,7 +67,8 @@ text-align: center;
     flex-direction: row;
     margin: 0 35%;
     padding: 20;
-    background-color: #d0cbb9;
+    /* background-color: #d0cbb9; */
+    background-color: #fff;
 }
 .bg_icon_undangan span{
     text-align: center;
