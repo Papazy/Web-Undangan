@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+}
+@font-face{
+    font-family: 'Roboto Slab';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@400;500&display=swap');
+}
+
 .Pembuka {
     background-image: url('/BACKGROUND_PEMBUKA.png');
     position: fixed;
@@ -11,5 +23,53 @@
     background-position: center;
     background-repeat: no-repeat;
     transform: translateY(0);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     
 }
+
+.irfan{
+font-size: 80px;
+line-height: 218px;
+color: #586032;
+font-weight: 400;
+font-family: 'Alex Brush';
+text-align: center;
+filter: drop-shadow(-12.021px 12.021px 8px #eeebe6);
+}
+
+.bapak{
+    font-size: 21px;
+color: #000000;
+font-weight: 400;
+font-family: "Roboto Slab";
+text-align: center;
+}
+
+.hormat{
+    font-size: 20px;
+color: #000000;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+
+.icon_undangan{
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.bg_icon_undangan{
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 35%;
+    padding: 20;
+    background-color: #d0cbb9;
+}
+.bg_icon_undangan span{
+    text-align: center;
+}
+
