@@ -1,0 +1,564 @@
+/* bg  */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 407px;
+height: 1616px;
+left: -41px;
+top: -47px;
+
+background: url(bg.jpg);
+border: 1px solid #000000;
+
+
+/* Atasnama 1 */
+
+
+position: absolute;
+width: 215px;
+height: 37px;
+left: 72px;
+top: 73px;
+
+background: url(Atasnama.png);
+
+/* M.Irfan & Auliana */
+position: absolute;
+width: 220px;
+height: 42px;
+left: 70px;
+top: 125px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 42px;
+
+color: #000000;
+
+/* Rectangle 1 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 312px;
+height: 214px;
+left: 24px;
+top: 287px;
+
+border: 1px solid #C09D76;
+
+/* MEMPELAI */
+
+
+position: absolute;
+width: 98px;
+height: 28px;
+left: 125px;
+top: 546px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+
+/* Ellipse 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 191px;
+height: 191px;
+left: 84px;
+top: 607px;
+
+border: 2px solid #C09D76;
+
+/* Muhammad Irfan */
+
+position: absolute;
+width: 139px;
+height: 28px;
+left: 111px;
+top: 21px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+
+/* Putra Pertama dari Bapak Fulan & Ibu Fulanah */
+
+
+position: absolute;
+width: 310px;
+height: 24px;
+left: 25px;
+top: 53px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Ellipse 2*/
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 191px;
+height: 191px;
+
+border: 2px solid #C09D76;
+
+/* Auliana */
+
+
+position: absolute;
+width: 61px;
+height: 28px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+
+/* Putri Pertama dari Bapak Fulan & Ibu Fulanah */
+
+
+position: absolute;
+width: 306px;
+height: 24px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+/* bg 2 coklat  */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 407px;
+height: 1616px;
+left: -41px;
+top: -47px;
+
+background: url(bg.jpg);
+border: 1px solid #000000;
+
+/* DENGAN SEGALA KERENDAHAN HATI DAN TANPA MENGURANGI RASA HORMAT KAMI MENGUNDANG BAPAK/IBU/SAUDARA (I) UNTUK HADIR PADA PERNIKAHAN KAMI */
+
+
+position: absolute;
+width: 334px;
+height: 126px;
+left: 13px;
+top: 507px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+
+/* Rectangle Hari */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 66px;
+height: 61px;
+left: 25px;
+top: 663px;
+
+border: 4px solid #F7E7D7;
+border-radius: 10px;
+
+/* 64 Hari */
+
+
+position: absolute;
+width: 26px;
+height: 33px;
+left: 40px;
+top: 670px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+/* HARI */
+
+
+position: absolute;
+width: 31px;
+height: 17px;
+left: 40px;
+top: 702px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+/* Rectangle Jam */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 63px;
+height: 61px;
+left: 106px;
+top: 663px;
+
+border: 4px solid #F7E7D7;
+border-radius: 10px;
+
+
+/* 64 JAM */
+
+
+position: absolute;
+width: 26px;
+height: 33px;
+left: 123px;
+top: 670px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+/* JAM */
+
+
+position: absolute;
+width: 24px;
+height: 17px;
+left: 125px;
+top: 702px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+/* Rectangle Menit */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 64px;
+height: 61px;
+left: 180px;
+top: 663px;
+
+border: 4px solid #F7E7D7;
+border-radius: 10px;
+
+/* 64 Menit */
+
+
+position: absolute;
+width: 26px;
+height: 33px;
+left: 202px;
+top: 670px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+/* MENIT */
+
+
+position: absolute;
+width: 41px;
+height: 17px;
+left: 194px;
+top: 702px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Rectangle Detik */
+box-sizing: border-box;
+
+position: absolute;
+width: 67px;
+height: 61px;
+left: 261px;
+top: 663px;
+
+border: 4px solid #F7E7D7;
+border-radius: 10px;
+
+
+/* 64 Detik */
+position: absolute;
+width: 26px;
+height: 33px;
+left: 283px;
+top: 670px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* DETIK */
+position: absolute;
+width: 39px;
+height: 17px;
+left: 275px;
+top: 702px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+/* Rectangle Resepsi */
+
+
+position: absolute;
+width: 341px;
+height: 153px;
+left: 10px;
+top: 777px;
+
+background: #D9D9D9;
+border-radius: 5px;
+
+/* RESEPSI PERNIKAHAN */
+
+
+position: absolute;
+width: 204px;
+height: 28px;
+left: 78px;
+top: 802px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+
+/* KEDIAMAN MEMPEALAI PRIA */
+
+
+position: absolute;
+width: 132px;
+height: 14px;
+left: 114px;
+top: 840px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+
+color: #000000;
+
+/* Jl. Medan B. Aceh, Kec. Padang Tiji, Kabupaten Pidie, Aceh */
+
+
+position: absolute;
+width: 282px;
+height: 17px;
+left: 53px;
+top: 865px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+
+/* SABTU,29 DESEMBER 2022 */
+
+
+position: absolute;
+width: 153px;
+height: 18px;
+left: 92px;
+top: 897px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+
+color: #000000;
+
+/* Rectangle Maps */
+
+
+position: absolute;
+width: 307px;
+height: 347px;
+left: 26px;
+top: 986px;
+
+background: #D9D9D9;
+border-radius: 4px;
+
+/* Rectangle Ucapan terima kasih */
+
+
+position: absolute;
+width: 360px;
+height: 175px;
+left: 0px;
+top: 1394px;
+
+background: #C09D76;
+
+/* Atas kehadiran dan doa restu yang diberikan kami ucapkan terimakasih */
+
+
+position: absolute;
+width: 246px;
+height: 72px;
+left: 57px;
+top: 1455px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+/* Rectangle footer  */
+
+
+position: absolute;
+width: 360px;
+height: 62px;
+left: 0px;
+top: 1569px;
+
+background: #F7E7D7;
+
+/* Copyright Mulkin Digital */
+
+
+position: absolute;
+width: 155px;
+height: 18px;
+left: 12px;
+top: 1592px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #000000;
+
+/* WA: 0813-9254-6892 */
+
+
+position: absolute;
+width: 120px;
+height: 24px;
+left: 226px;
+top: 1590px;
+
+font-family: 'Chenla';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
