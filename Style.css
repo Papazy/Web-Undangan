@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
 
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
 
 @font-face {
     font-family: 'Alex Brush';
@@ -10,7 +14,7 @@
     src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@400;500&display=swap');
 }
 
-.Pembuka {
+#Pembuka {
     background-image: url('/BACKGROUND_PEMBUKA.png');
     position: fixed;
     z-index: 2000;
@@ -54,24 +58,36 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: center;
 }
 
-.icon_undangan{
-    padding: 20px;
+#icon_undangan{
+    /* padding: 20px; */
     margin-top: 40px;
-    display: flex;
-    justify-content: center;
+    border-radius: 20px;
+    border-width:0;
     
 }
 .bg_icon_undangan{
+    cursor: pointer;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 0 35%;
-    padding: 20;
+    /* margin: 0 35%; */
+    padding: 3px 10px;
     /* background-color: #d0cbb9; */
-    background-color: #fff;
+    /* background-color: #fff; */
     /* ini commit */
+    border-radius: 25px;
+    
 }
 .bg_icon_undangan span{
     text-align: center;
 }
+.bg_icon_undangan img{
+    width: 20px;
+}
+
+.Hilangkan-Pembuka{
+    transform : translateY(200%);
+    transition : 0.4s ease-in-out
+}
+
 
