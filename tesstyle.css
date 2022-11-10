@@ -1,0 +1,27 @@
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+
+#animate-area   { 
+    width: 100vw; 
+    height: 100vw; 
+    background-image: url(http://oi64.tinypic.com/2r7ri29.jpg);
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    position:absolute;
+    z-index:1;
+
+    animation: animatedBackground 135s linear infinite;
+}
+
+#animate-area2  { 
+    width: 100vw; 
+    height: 100vw; 
+    background-image: url(http://oi67.tinypic.com/2niy905.jpg);
+
+    background-repeat: repeat-x;
+    position:absolute;
+    z-index:2;
+    animation: animatedBackground 80s linear infinite;
+}
