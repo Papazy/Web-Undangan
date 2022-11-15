@@ -1,56 +1,313 @@
-/* bg  */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 407px;
-height: 1616px;
-left: -41px;
-top: -47px;
-
-background: url(bg.jpg);
-border: 1px solid #000000;
-
-
-/* Atasnama 1 */
+/* bg1 2 */
 
 
 position: absolute;
-width: 215px;
-height: 37px;
-left: 72px;
-top: 73px;
+width: 360px;
+height: 636px;
+left: 0px;
+top: 0px;
 
-background: url(Atasnama.png);
+background: url(bg1.jpg);
 
-/* M.Irfan & Auliana */
+
+/* You’re invited to The Wedding Of */
+
+
 position: absolute;
-width: 220px;
-height: 42px;
-left: 70px;
-top: 125px;
+width: 96px;
+height: 34px;
+left: 132px;
+top: 474px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+text-align: center;
+
+color: #000000;
+
+/* Irfan & Auliya */
+
+
+position: absolute;
+width: 157px;
+height: 33px;
+left: 86px;
+top: 565px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
+
+/* sabtu,29 desember 2022 */
+
+
+position: absolute;
+width: 187px;
+height: 22px;
+left: 103px;
+top: 635px;
 
 font-family: 'Viaoda Libre';
 font-style: normal;
 font-weight: 400;
-font-size: 30px;
-line-height: 42px;
+font-size: 16px;
+line-height: 23px;
 
 color: #000000;
 
-/* Rectangle 1 */
+/* Rectangle hari */
 
 
 box-sizing: border-box;
 
 position: absolute;
-width: 312px;
-height: 214px;
-left: 24px;
-top: 287px;
+width: 67px;
+height: 61px;
+left: 16px;
+top: 676px;
 
-border: 1px solid #C09D76;
+background: #A78D4B;
+border: 4px solid #F6EEEB;
+border-radius: 10px;
+
+/* 64 Hari */
+
+
+position: absolute;
+width: 26px;
+height: 33px;
+left: 39px;
+top: 683px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #EFE7E4;
+
+/* HARI */
+
+
+position: absolute;
+width: 39px;
+height: 17px;
+left: 31px;
+top: 715px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+text-align: center;
+
+color: #EFE7E4;
+
+/* Rectangle Jam */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 67px;
+height: 61px;
+left: 103px;
+top: 676px;
+
+background: #A78D4B;
+border: 4px solid #F6EEEB;
+border-radius: 10px;
+
+/* 64 JAM*/
+
+
+position: absolute;
+width: 26px;
+height: 33px;
+left: 126px;
+top: 683px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #EFE7E4;
+
+/* JAM */
+
+
+position: absolute;
+width: 39px;
+height: 17px;
+left: 118px;
+top: 715px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+text-align: center;
+
+color: #EFE7E4;
+
+/* Rectangle MENIT */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 67px;
+height: 61px;
+left: 189px;
+top: 676px;
+
+background: #A78D4B;
+border: 4px solid #F6EEEB;
+border-radius: 10px;
+
+/* 64 MENIT */
+
+
+position: absolute;
+width: 26px;
+height: 33px;
+left: 212px;
+top: 683px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #EFE7E4;
+
+/* MENIT */
+
+
+position: absolute;
+width: 39px;
+height: 17px;
+left: 204px;
+top: 715px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+text-align: center;
+
+color: #EFE7E4;
+
+/* Rectangle DETIK */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 67px;
+height: 61px;
+left: 277px;
+top: 676px;
+
+background: #A78D4B;
+border: 4px solid #F6EEEB;
+border-radius: 10px;
+
+/* 64 DETIK*/
+
+
+position: absolute;
+width: 26px;
+height: 33px;
+left: 300px;
+top: 683px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #EFE7E4;
+
+/* DETIK */
+
+
+position: absolute;
+width: 39px;
+height: 17px;
+left: 292px;
+top: 715px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+text-align: center;
+
+color: #EFE7E4;
+
+/* bg HALAMAN 1 POTONGAN BAWAH */
+
+
+position: absolute;
+width: 360px;
+height: 63px;
+left: 360px;
+top: 800px;
+
+background: url(bg.jpg);
+transform: rotate(-180deg);
+
+/* bg HALAMAN 2 */
+
+
+position: absolute;
+width: 360px;
+height: 634px;
+left: 360px;
+top: 799px;
+
+background: url(bg.jpg);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Dengan Memohon Rahmat Dan Ridho Dari Allah SWT. Kami Bermaksud Menyelenggarakan Acara Pernikahan Kami */
+
+
+position: absolute;
+width: 340px;
+height: 84px;
+left: 10px;
+top: 935px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
 
 /* MEMPELAI */
 
@@ -58,8 +315,8 @@ border: 1px solid #C09D76;
 position: absolute;
 width: 98px;
 height: 28px;
-left: 125px;
-top: 546px;
+left: 131px;
+top: 1029px;
 
 font-family: 'Viaoda Libre';
 font-style: normal;
@@ -71,23 +328,26 @@ color: #000000;
 
 /* Ellipse 1 */
 
+
 box-sizing: border-box;
 
 position: absolute;
 width: 191px;
 height: 191px;
-left: 84px;
-top: 607px;
+left: 85px;
+top: 1091px;
 
+background: url(IMG_0308 (3).png);
 border: 2px solid #C09D76;
 
 /* Muhammad Irfan */
+
 
 position: absolute;
 width: 139px;
 height: 28px;
 left: 111px;
-top: 21px;
+top: 1298px;
 
 font-family: 'Viaoda Libre';
 font-style: normal;
@@ -104,7 +364,7 @@ position: absolute;
 width: 310px;
 height: 24px;
 left: 25px;
-top: 53px;
+top: 1330px;
 
 font-family: 'Viaoda Libre';
 font-style: normal;
@@ -117,7 +377,7 @@ line-height: 24px;
 color: #000000;
 
 
-/* Ellipse 2*/
+/* Ellipse 2 */
 
 
 box-sizing: border-box;
@@ -125,15 +385,20 @@ box-sizing: border-box;
 position: absolute;
 width: 191px;
 height: 191px;
+left: 82px;
+top: 1429px;
 
+background: url(IMG_0322.png);
 border: 2px solid #C09D76;
 
-/* Auliana */
+/* Auliyana */
 
 
 position: absolute;
-width: 61px;
+width: 68px;
 height: 28px;
+left: 147px;
+top: 1643px;
 
 font-family: 'Viaoda Libre';
 font-style: normal;
@@ -149,6 +414,8 @@ color: #000000;
 position: absolute;
 width: 306px;
 height: 24px;
+left: 24px;
+top: 1677px;
 
 font-family: 'Viaoda Libre';
 font-style: normal;
@@ -160,28 +427,25 @@ line-height: 24px;
 
 color: #000000;
 
-/* bg 2 coklat  */
+/* Rectangle 13 */
 
-
-box-sizing: border-box;
 
 position: absolute;
-width: 407px;
-height: 1616px;
-left: -41px;
-top: -47px;
+width: 360px;
+height: 192px;
+left: 0px;
+top: 1748px;
 
-background: url(bg.jpg);
-border: 1px solid #000000;
+background: #DBCBB9;
 
-/* DENGAN SEGALA KERENDAHAN HATI DAN TANPA MENGURANGI RASA HORMAT KAMI MENGUNDANG BAPAK/IBU/SAUDARA (I) UNTUK HADIR PADA PERNIKAHAN KAMI */
+/* “Dan Diantara Tanda-tanda (Kebesaran) -Nya Ialah Dia Menciptakan Pasangan-pasangan Untukmu Dari Jenismu Sendiri, Agar Kamu Cenderung Dan Merasa Tenteram Kepadanya, Dan Dia Menjadikan Diantaramu Rasa Kasih Dan Sayang. Sungguh, Pada Yang Demikian Itu Benar-benar Terdapat Tanda-tanda (Kebesaran Allah) Bagi Kaum Yang Berfikir”{ Q.S : Ar-Rum (30) : 21 } */
 
 
 position: absolute;
 width: 334px;
-height: 126px;
-left: 13px;
-top: 507px;
+height: 189px;
+left: 17px;
+top: 1762px;
 
 font-family: 'Cormorant';
 font-style: normal;
@@ -190,319 +454,296 @@ font-size: 17px;
 line-height: 21px;
 text-align: center;
 
-color: #FFFFFF;
+color: #284538;
 
-/* Rectangle Hari */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 66px;
-height: 61px;
-left: 25px;
-top: 663px;
-
-border: 4px solid #F7E7D7;
-border-radius: 10px;
-
-/* 64 Hari */
+/* bg 3 */
 
 
 position: absolute;
-width: 26px;
-height: 33px;
-left: 40px;
-top: 670px;
+width: 360px;
+height: 634px;
+left: 360px;
+top: 2064px;
 
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 33px;
-text-align: center;
+background: url(bg.jpg);
+transform: matrix(-1, 0, 0, 1, 0, 0);
 
-color: #FFFFFF;
-
-/* HARI */
+/* insya Allah Acara Akan Dilaksanakan Pada : */
 
 
 position: absolute;
-width: 31px;
-height: 17px;
-left: 40px;
-top: 702px;
-
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-text-align: center;
-
-color: #FFFFFF;
-
-/* Rectangle Jam */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 61px;
-left: 106px;
-top: 663px;
-
-border: 4px solid #F7E7D7;
-border-radius: 10px;
-
-
-/* 64 JAM */
-
-
-position: absolute;
-width: 26px;
-height: 33px;
-left: 123px;
-top: 670px;
-
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 33px;
-text-align: center;
-
-color: #FFFFFF;
-
-/* JAM */
-
-
-position: absolute;
-width: 24px;
-height: 17px;
-left: 125px;
-top: 702px;
-
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-text-align: center;
-
-color: #FFFFFF;
-
-/* Rectangle Menit */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 64px;
-height: 61px;
-left: 180px;
-top: 663px;
-
-border: 4px solid #F7E7D7;
-border-radius: 10px;
-
-/* 64 Menit */
-
-
-position: absolute;
-width: 26px;
-height: 33px;
-left: 202px;
-top: 670px;
-
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 33px;
-text-align: center;
-
-color: #FFFFFF;
-
-/* MENIT */
-
-
-position: absolute;
-width: 41px;
-height: 17px;
-left: 194px;
-top: 702px;
-
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-text-align: center;
-
-color: #FFFFFF;
-
-
-/* Rectangle Detik */
-box-sizing: border-box;
-
-position: absolute;
-width: 67px;
-height: 61px;
-left: 261px;
-top: 663px;
-
-border: 4px solid #F7E7D7;
-border-radius: 10px;
-
-
-/* 64 Detik */
-position: absolute;
-width: 26px;
-height: 33px;
-left: 283px;
-top: 670px;
-
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 33px;
-text-align: center;
-
-color: #FFFFFF;
-
-
-/* DETIK */
-position: absolute;
-width: 39px;
-height: 17px;
-left: 275px;
-top: 702px;
-
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-text-align: center;
-
-color: #FFFFFF;
-
-/* Rectangle Resepsi */
-
-
-position: absolute;
-width: 341px;
-height: 153px;
-left: 10px;
-top: 777px;
-
-background: #D9D9D9;
-border-radius: 5px;
-
-/* RESEPSI PERNIKAHAN */
-
-
-position: absolute;
-width: 204px;
-height: 28px;
-left: 78px;
-top: 802px;
+width: 279px;
+height: 56px;
+left: 41px;
+top: 2118px;
 
 font-family: 'Viaoda Libre';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 28px;
+text-align: center;
 
 color: #000000;
 
-/* KEDIAMAN MEMPEALAI PRIA */
+/* ICON cincin 1 */
 
 
 position: absolute;
-width: 132px;
-height: 14px;
-left: 114px;
-top: 840px;
+width: 126px;
+height: 127px;
+left: 117px;
+top: 2181px;
 
-font-family: 'Viaoda Libre';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 14px;
+background: url(ICON cincin.png);
 
-color: #000000;
-
-/* Jl. Medan B. Aceh, Kec. Padang Tiji, Kabupaten Pidie, Aceh */
+/* Akad Nikah */
 
 
 position: absolute;
-width: 282px;
-height: 17px;
-left: 53px;
-top: 865px;
+width: 154px;
+height: 35px;
+left: 103px;
+top: 2344px;
 
-font-family: 'Viaoda Libre';
+font-family: 'Sanchez';
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
-line-height: 17px;
+font-size: 27px;
+line-height: 35px;
 /* identical to box height */
 
 
 color: #000000;
 
-/* SABTU,29 DESEMBER 2022 */
+/* sabtu,29 desember 2022 */
 
 
 position: absolute;
-width: 153px;
-height: 18px;
-left: 92px;
-top: 897px;
+width: 162px;
+height: 24px;
+left: 108px;
+top: 2391px;
 
 font-family: 'Viaoda Libre';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 18px;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height */
+
 
 color: #000000;
 
-/* Rectangle Maps */
+/* calendar 4 */
+
+
+position: absolute;
+width: 17px;
+height: 18px;
+left: 81px;
+top: 2391px;
+
+background: url(calendar.png);
+
+/* Pukul : 08.00 WIB - Selesai */
+
+
+position: absolute;
+width: 185px;
+height: 24px;
+left: 98px;
+top: 2420px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+/* time 1 */
+
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 78px;
+top: 2423px;
+
+background: url(time.png);
+
+/* Bertempat Di : */
+
+
+position: absolute;
+width: 105px;
+height: 25px;
+left: 134px;
+top: 2454px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+color: #000000;
+
+/* Mesjid Raudaturrahman */
+
+
+position: absolute;
+width: 162px;
+height: 24px;
+left: 103px;
+top: 2483px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+/* Resepsi */
+
+
+position: absolute;
+width: 98px;
+height: 35px;
+left: 138px;
+top: 2523px;
+
+font-family: 'Sanchez';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 35px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* sabtu,29 desember 2022 */
+
+
+position: absolute;
+width: 162px;
+height: 24px;
+left: 115px;
+top: 2574px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+/* Pukul : 08.00 WIB - Selesai */
+
+
+position: absolute;
+width: 185px;
+height: 24px;
+left: 105px;
+top: 2603px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+/* TIME 2 */
+
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 87px;
+top: 2606px;
+
+background: url(time.png);
+
+/* Bertempat Di : */
+
+
+position: absolute;
+width: 99px;
+height: 24px;
+left: 141px;
+top: 2637px;
+
+font-family: 'Viaoda Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+/* bg 4 */
+
+
+position: absolute;
+width: 360px;
+height: 634px;
+left: 0px;
+top: 3330px;
+
+background: url(bg.jpg);
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Rectangle 11 */
 
 
 position: absolute;
 width: 307px;
 height: 347px;
-left: 26px;
-top: 986px;
+left: 27px;
+top: 2826px;
 
 background: #D9D9D9;
 border-radius: 4px;
 
-/* Rectangle Ucapan terima kasih */
+/* Rectangle TERAKHIR */
 
 
 position: absolute;
-width: 360px;
+width: 374px;
 height: 175px;
-left: 0px;
-top: 1394px;
+left: -2px;
+top: 3330px;
 
-background: #C09D76;
+background: #DBCBB9;
 
-/* Atas kehadiran dan doa restu yang diberikan kami ucapkan terimakasih */
+/* Tiada Yang Dapat Kami ungkapkan Selain Rasa Terimakasih Dari Hati Yang Tulus Apabila Bapak/ Ibu / Saudara /i Berkenan Hadir Untuk Memberikan Do’a Restu Kepada Kami */
 
 
 position: absolute;
-width: 246px;
-height: 72px;
-left: 57px;
-top: 1455px;
+width: 256px;
+height: 168px;
+left: 51px;
+top: 3334px;
 
 font-family: 'Cormorant';
 font-style: normal;
@@ -511,27 +752,28 @@ font-size: 20px;
 line-height: 24px;
 text-align: center;
 
-color: #FFFFFF;
+color: #284538;
 
-/* Rectangle footer  */
+
+/* Rectangle 12 */
 
 
 position: absolute;
-width: 360px;
+width: 374px;
 height: 62px;
-left: 0px;
-top: 1569px;
+left: -7px;
+top: 3505px;
 
 background: #F7E7D7;
 
-/* Copyright Mulkin Digital */
+/* @Copyright Mulkin Digital */
 
 
 position: absolute;
-width: 155px;
+width: 190px;
 height: 18px;
-left: 12px;
-top: 1592px;
+left: 0px;
+top: 3528px;
 
 font-family: 'Cormorant';
 font-style: normal;
@@ -546,10 +788,10 @@ color: #000000;
 
 
 position: absolute;
-width: 120px;
+width: 124px;
 height: 24px;
-left: 226px;
-top: 1590px;
+left: 223px;
+top: 3526px;
 
 font-family: 'Chenla';
 font-style: normal;
@@ -561,4 +803,41 @@ line-height: 24px;
 text-align: center;
 
 color: #000000;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
