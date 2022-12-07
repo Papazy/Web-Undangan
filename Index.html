@@ -4,35 +4,207 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Undangan Pernikahan Irfan dan Auliana</title>
-    <link rel="icon" href="/HEADER_BUNGA_2.png">
+    <title>Undangan Ayuliya & Irfan</title>
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <!-- <div id="Pembuka">
-        <p class="irfan"><span>M.Irfan</span> & <span>Auliyana</span></p>
-        <p class="bapak">Kepada Bapak/Ibu/Saudara/i</p>
-        <p class="hormat">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir di Acara Pernikahan Kami.</p>
-        <button id="icon_undangan" onclick="swipeAtas()">
+     <!-- <div id="Pembuka">
+        <p class="irfan">M.Irfan</p>
+        <p class="irfan">&</p>
+        <p class="irfan">Auliyana</p>
+        <div class="bapakWrapper">
+            <p class="bapak">Kepada Bapak/Ibu/Saudara/i</p>
+            <p id="namaTamu">Nama Tamu</p>
+            <p class="hormat" style="font-size:95%;background: none;">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir di Acara Pernikahan Kami.</p>
+        </div>
+        <button id="icon_undangan" onclick="swipeAtas()"> 
             <div class="bg_icon_undangan">
                 <img src="/icon_undangan.png" alt="">
                 <span>Buka Undangan</span>
             </div>
         </button>
     </div> -->
-    <div class="isi">
-        <div class="atasNama"></div>
-    </div>
-<<<<<<< HEAD
-</body> 
-=======
+    
+    <audio id="musik">
+        <source src="/Alat/musik.mp3" type="audio/mp3">
+    </audio>
 
-    <script>
-        function swipeAtas(){
-            const pembuka = document.getElementById("Pembuka")
-            pembuka.removeAttribute("Pembuka")
-        }
-    </script>
+    <img id = "tombolMusik" src="/Alat/pause.png" alt="" onclick="ubahLagu()">
+    <div id="container">
+        <div class="isi-teratas">
+            <p class="atas">You're invited to The Wedding Of</p>
+            <p class="bawah">Auliyana & Irfan</p>
+            <p class="waktu">JUM'AT 23 DESEMBER 2022</p>
+        </div>
+        <div class="isi-bawah">
+            
+            <p style="font-family:'Playfair Display';font-size: 120%;padding: 0 9%;">Dengan Memohon Rahmat Dan Ridho Dari Allah SWT. Kami Bermaksud Menyelenggarakan Acara Pernikahan Kami</p>
+            <p style="font-size:1.3em; margin-bottom: 10%;font-family:'Great Vibes'; font-size: 250%;">Mempelai</p>
+            <img src="/P_Wanita.png" alt="Mempelai Wanita" style="max-width:60%; border:3px solid #B08E68; border-radius: 100%;box-shadow: 0px 10px 30px -5px rgb(0 0 0 / 50%);">
+            <p style="font-size:1.5em; margin: 0;font-family: 'Playfair Display';">Auliyana,A.Md</p>
+            <p style="margin-top:0;font-family: 'Alex';font-style: italic;">Putri Bapak Mayor CBA Ahmad & Ibu Nurmawati</p>
+            <br>
+            <img src="/P_Pria.png" alt="Mempelai pria" style="max-width:60%; border:3px solid #B08E68; border-radius: 100%;box-shadow: 0px 10px 30px -5px rgb(0 0 0 / 50%);">
+            <p style="font-size:1.5em;margin: 0;font-family: 'Playfair Display'">Muhammad Irfan,S.ST</p>
+            <p style="margin-top:0;font-family: 'Alex';font-style: italic;">Putra Bapak Rusli Raden & Ibu Maryam, S.Pd</p>
+            <br><br>
+            <div class="kotakQuotes">
+                <p style="font-family:'Abril';font-size: 1.2em;margin: 0 10px;">“Dan Diantara Tanda-tanda (Kebesaran) -Nya Ialah Dia Menciptakan Pasangan-pasangan Untukmu Dari Jenismu Sendiri, Agar Kamu Cenderung Dan Merasa Tenteram Kepadanya, Dan Dia Menjadikan Diantaramu Rasa Kasih Dan Sayang. Sungguh, Pada Yang Demikian Itu Benar-benar Terdapat Tanda-tanda (Kebesaran Allah) Bagi Kaum Yang Berfikir”{ Q.S : Ar-Rum (30) : 21 }
+                </p>
+            </div>
+        </div>
+        <div class="hal4">
+            <br>
+            <p style="font-size:2em;font-family:'Playfair Display';">Insya Allah Acara Akan Dilaksanakan Pada :</p>
+            <img src="/ICON cincin.png" alt="Icon Cincin" style="max-width:50%;opacity:0.6">
+            <p style="font-size:2em;margin: 10% 0;font-family: 'Leckerli One';">Akad Nikah</p>
+            <div class="wrapper">
+                <div class="time-section">
+                    <div id="hari" class="value">00</div>
+                    <div class="time-labe">Hari</div>
+                </div>
+                <div class="time-section">
+                    <div id="jam" class="value">00</div>
+                    <div class="time-labe">Jam</div>
+                </div>
+                <div class="time-section">
+                    <div id="menit" class="value">00</div>
+                    <div class="time-labe">Menit</div>
+                </div>
+                <div class="time-section">
+                    <div id="detik" class="value">00</div>
+                    <div class="time-labe">Detik</div>
+                </div>
+                <br><br>
+                <div class="detail">
+                <img src="/Alat/kalender.png" alt="" style="display:block;max-width:5%;">
+                <span style="text-align:center"> Jum’at, 23 Desember 2022</span>
+            </div>
+            <div class="detail">
+                <img src="/Alat/jam.png" alt="" style="max-width:5%;">
+                <span style="text-align:center"> Pukul : 16.45 WIB - Selesai</span>
+            </div>
+            <div class="detail">
+                <img src="/Alat/home.png" alt="" style="max-width:5%;">
+                <span style="text-align:center"> Bertempat di :</span>
+                <span style="font-size: 110%;margin-top: 5px;">Mesjid Raya Baiturrahman, Banda Aceh</span>
+            </div>
+   
+       
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.0907048242284!2d95.31280032164385!3d5.553571083094176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3040374934a943ab%3A0xbabe816ca4be1e2f!2sMasjid%20Raya%20Baiturrahman!5e0!3m2!1sid!2sid!4v1670255005968!5m2!1sid!2sid" width="90%" height="378" style="border:2px solid brown;border-radius:20px;margin-top: 5%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="tombol">
+                    <a href="https://goo.gl/maps/Hkva6G9MxSNy2T1NA">
+                        <span>Kunjungi Lokasi</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hal6">
+            <p style="margin-top:2%;font-size:2em;font-family: 'Leckerli One';">Resepsi</p>
+            <div class="wrapper" style="margin-top: 10%;">
+            <div class="time-section">
+                <div id="hari2" class="value">00</div>
+                <div class="time-labe">Hari</div>
+            </div>
+            <div class="time-section">
+                <div id="jam2" class="value">00</div>
+                <div class="time-labe">Jam</div>
+            </div>
+            <div class="time-section">
+                <div id="menit2" class="value">00</div>
+                <div class="time-labe">Menit</div>
+            </div>
+            <div class="time-section">
+                <div id="detik2" class="value">00</div>
+                <div class="time-labe">Detik</div>
+            </div>
+            <br><br>
+            <div class="detail">
+                <img src="/Alat/kalender.png" alt="" style="max-width:5%;">
+                <span style="text-align:center"> Minggu, 25 desember 2022</span>
+            </div>
+            <div class="detail">
+                <img src="/Alat/jam.png" alt="" style="max-width:5%;">
+                <span style="text-align:center"> Pukul : 11.00 WIB - Selesai</span>
+            </div>
+            <div class="detail">
+                <img src="/Alat/home.png" alt="" style="max-width:5%;">
+                <span style="text-align:center"> Bertempat di :</span>
+                <span style="font-size: 110%;margin-top: 5px;">Perumahan Griya  Punie Minimalis 
+                    Lr. Zaitun No.9 Jl. Japakeh, 
+                    Punie, Mata Ie, Aceh Besar</span>
+                </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.460639523161!2d95.30192821476568!3d5.498403896012905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d678e8e95fd93eb!2zNcKwMjknNTQuMyJOIDk1wrAxOCcxNC44IkU!5e0!3m2!1sid!2sid!4v1670257410447!5m2!1sid!2sid" width="90%" height="378" style="border:3px solid brown;border-radius: 20px;margin-top: 5%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                    <div class="tombol">
+                        <a href="https://goo.gl/maps/aF4j8r9HLvFe3J4q6">
+                            <span>Kunjungi Lokasi</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hormat">
+                    <p style="font-size:80%">Tanpa mengurangi rasa hormat, dikarenakan masih dalam masa pandemi Covid-19, dan demi mematuhi <strong>Protokol kesehatan</strong> ditatanan hidup baru. Demi kenyamanan bersama, kami memohon agar para tamu undangan yang hadir berkenan menerapkan protokol kesehatan.</p>
+                </div>
+
+        </div>
+        <div class="hal8">
+                <div class="imgcontainer">
+                    <div class="imgwrapper">
+                        <img src="/Alat/covid1.png" alt="" style="width: 100%;">
+                        <span>Cuci <br>Tangan  </span>
+                    </div>
+                    <div class="imgwrapper">
+                        <img src="/Alat/covid2.png" alt="" style="width: 100%;">
+                        <span>Gunakan<br>Masker</span>
+                    </div>
+                    <div class="imgwrapper">
+                        <img src="/Alat/covid3.png" alt="" style="width: 100%;">
+                        <span>Jaga<br>Jarak</span>
+                    </div>
+                    <div class="imgwrapper">
+                        <img src="/Alat/covid4.png" alt="" style="width: 100%;">
+                        <span>Tidak Berjabat<br>Tangan</span>
+                    </div>
+                    <div class="imgwrapper">
+                        <img src="/Alat/covid5.png" alt="" style="width: 100%;">
+                        <span>Hindari<br>Kerumunan</span>
+                    </div>
+                    <div class="imgwrapper">
+                        <img src="/Alat/covid6.png" alt="" style="width: 100%;">
+                        <span>Gunakan<br>Handsanitizer</span>
+                    </div>
+                </div>
+
+                <div class="kotakUcapan">
+                    <p style="font-family: 'Leckerli One';font-size: 1.5em;">Buku Tamu</p>
+                    <p>Berikan Do'a/Ucapan terbaik anda kepada kedua Mempelai</p>
+                    <div class="kotakUcapanWrapper">
+                        <p style="color:white;text-align:left;margin-left:5%">Ucapan</p>
+                        <form action="" spellcheck="false">
+                            <input type="text" id="nama" placeholder="Isi Nama" style="width: 90%;height:50%;font-size: 0.9em;"><br>
+                           <textarea name="t_komen" id="komentar" rows="5" placeholder="Isi Do'a Anda" style="font-family:'Poppins';font-size: 0.9em; overflow: hidden; overflow-wrap: break-word; resize: none; height: 181px; width: 90%;"></textarea>
+                            <select name="t_hadir" id="hadir" style="margin-top: 2%;width: 90%;background-color:white;font-family: 'Poppins';border-radius: 5px;">
+                                <option value disabled selected>Konfirmasi Kehadiran</option>
+                                <option value="Hadir">Hadir</option>
+                                <option value="Tidak Hadir" >Tidak Hadir</option>
+                            </select>
+                            <input name="submit" id="submitKomen" value="Kirim" type="submit">
+                        </form>
+                    </div>
+                    .
+
+                </div>
+                <div class="hadir" >
+                    <p >Tiada Yang Dapat Kami ungkapkan Selain Rasa Terimakasih Dari Hati Yang Tulus Apabila Bapak/ Ibu / Saudara /i Berkenan Hadir Untuk Memberikan Do’a Restu Kepada Kami</p>
+                </div>
+                <div class="foot">
+                    <p></p>
+                    <p>@Copyright Mulkin Digital <br>WA: 0813-9254-6892</p>
+                </div>
+                
+        </div> 
+    </div>
+    <script src="Main.js"></script>
 </body>
->>>>>>> f614aaa72d75ff14a8578dd4893dd0d20dc4de1b
 </html>
